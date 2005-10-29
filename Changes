@@ -3,3 +3,9 @@ Revision history for WWW-Sucksub-Attila
 0.01    27/10/2005
         First version, released on an unsuspecting world.
 
+0.02	28/10/2005
+		 * add /eg directory
+		 * correct. Makefile.PL
+		 * correct. pod-coverage test : also private parms added
+		 * correct. README file
+		 TO DO : verify english explanations.

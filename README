@@ -1,15 +1,8 @@
 WWW-Sucksub-Attila
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
-
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it get an idea of the modules uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+Automated access To "attila" website
+Attila contains a great collection of french subtitle but the ergonomy is a real acces problem.
+WWW-Sucksub::Attila allows to automatically recolt pertinent data trhu a few method.
 
 INSTALLATION
 

@@ -9,7 +9,11 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib/WWW/Sucksub/Attila.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Test::More' => 0,
+         'Test::More' => '>=0.5',
+         'WWW::Mechanize' => '>= 1.02',
+         'DB_File'=> '>= 1.8',
+         'Carp' => '>= 1.0',
+         'HTML::Parser' => '>=1.0',
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'WWW-Sucksub-Attila-*' },
