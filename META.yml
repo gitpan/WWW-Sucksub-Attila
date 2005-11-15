@@ -1,10 +1,11 @@
 ---
 name: WWW-Sucksub-Attila
-version: 0.02
+version: 0.03
 author: Timothée Foucart <timothee.foucart@apinc.org>
 abstract: automated access to attila french subtitles database
 license: perl
 requires:
+  Alias: >=2.3
   Carp: >= 1.0
   DB_File: >= 1.8
   HTML::Parser: >=1.0
@@ -13,5 +14,5 @@ requires:
 provides:
   WWW::Sucksub::Attila:
     file: lib/WWW/Sucksub/Attila.pm
-    version: 0.02
+    version: 0.03
 generated_by: Module::Build version 0.25

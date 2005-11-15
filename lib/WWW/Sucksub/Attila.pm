@@ -6,11 +6,11 @@ WWW::Sucksub::Attila - automated access to attila french subtitles database
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -172,9 +172,13 @@ your bug as I make changes.
 
 =item * L<WWW::Sucksub::Divxstation>
 
+=item * L<WWW::Sucksub::Vostfree>
+
 =item * L<WWW::Mechanize>
 
 =item * L<HTML::Parser>
+
+=item * L<Alias>
 
 =back
 

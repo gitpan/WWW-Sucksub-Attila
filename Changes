@@ -9,3 +9,5 @@ Revision history for WWW-Sucksub-Attila
 		 * correct. pod-coverage test : also private parms added
 		 * correct. README file
 		 TO DO : verify english explanations.
+0.03    15/11/2005
+		* correct Alias.pm dependance in makefiles
