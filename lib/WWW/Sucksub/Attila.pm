@@ -6,11 +6,11 @@ WWW::Sucksub::Attila - automated access to attila french subtitles database
 
 =head1 VERSION
 
-Version 0.03
+Version 0.05
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.05';
 
 =head1 SYNOPSIS
 
@@ -353,10 +353,10 @@ sub search{
 		{ 
 		 if ($v =~ m/$motif/i)
 		 	{
-		 	print $fh "[FOUND Libelle ] $v \n[FOUND LINK]". $base.$k ."\n";
+		 	print $fh "[FOUND Libelle ] $v \n[FOUND LINK]".$k ."\n";
 		 	if ($html)
 		 		{ 
-		  		print HTMLFILE "<a href=\"".$base.$k."\">".$v."</a><br>\n";
+		  		print HTMLFILE "<a href=\"".$k."\">".$v."</a><br>\n";
 		  		$nbres++
 		  		};
 		 	
@@ -438,7 +438,7 @@ sub parse_attila{
         	{
         	if ($args->{href} =~ m/Subs\// )
         		{ 
-        		$hsav{$args->{href}}=$label;
+        		$hsav{$base.$args->{href}}=$label;
         		#DEBUG#print "[DEBUG PARSER]". $args->{href} ." ===>".$label."\n";
         		$label="";$top_label1=0;
         			

@@ -11,3 +11,6 @@ Revision history for WWW-Sucksub-Attila
 		 TO DO : verify english explanations.
 0.03    15/11/2005
 		* correct Alias.pm dependance in makefiles
+0.04-0.05	02/12/2005
+		*dbm file should now store absolute url
+		
