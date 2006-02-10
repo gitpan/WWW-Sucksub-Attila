@@ -13,4 +13,5 @@ Revision history for WWW-Sucksub-Attila
 		* correct Alias.pm dependance in makefiles
 0.04-0.05	02/12/2005
 		*dbm file should now store absolute url
-		
+0.06	09/02/2006
+		* main url changes to http://davidbillemont5.free.fr/		
